@@ -64,15 +64,25 @@ Les rôles des agents sont définis dans roles.json. Tu peux en ajouter/modifier
 
 
 📂 EchoPageAI/
+
 ├── 📜 main.py → Interface utilisateur avec Tkinter
+
 ├── 📜 agent_manager.py → Gestion des agents IA
+
 ├── 📂 roles/ → Définition des rôles des agents
+
 │ ├── 📜 base_role.py → Classe de base des rôles
+
 │ ├── 📜 detecteur_besoins.py → Détection des besoins
+
 │ ├── 📜 connecteur.py → Synthèse des réponses
+
 │ ├── 📜 recherche.py → Agent de recherche
+
 │ ├── 📜 role_class.py → Création dynamique de rôles
+
 │ ├── 📜 roles.json → Fichier de configuration des rôles
+
 └── 📜 .env → Clé API (optionnel pour Together AI)
 
 ---------------------------------------------------------
